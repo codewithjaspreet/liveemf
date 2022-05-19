@@ -38,7 +38,16 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  motion_sensors:
+  provider:
+  vector_math:
+  syncfusion_flutter_gauges:
+  syncfusion_flutter_charts:
 
+fluter_icons:
+  image_path: "assets/icon.png"
+  android: true
+  ios: true
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
@@ -73,11 +82,11 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
+  fonts:
+    - family: DMSans
+      fonts:
+        - asset: assets/DMSans-Regular.ttf
+#         - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
   #     fonts:
